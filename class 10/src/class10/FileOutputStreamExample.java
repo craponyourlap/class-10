@@ -12,7 +12,7 @@ public class FileOutputStreamExample {
 			byte b[] = shit.getBytes();
 			fout.write(b);
 			fout.close();
-			System.out.println("suckess...");
+			System.out.println("success...");
 		}catch(Exception e) {
 			System.out.println("some shit went wrong");
 		}
